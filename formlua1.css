@@ -1,0 +1,64 @@
+body{
+    font-family: Arial;
+    background-color: gray;
+}
+
+.conteiner{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    background-color: white;
+
+}
+header, .titulo{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 98%;
+    align-items: center;
+}
+.principal{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h4{
+    border-left: 10px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    background-image: url(imagens/bandeira1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    text-indent: 10%;
+    line-height: 1,5%;
+}
+article, footer{
+    padding-bottom: 6%;
+}
+article{
+    background-image: url(imagens/fundo-f1.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: scroll;
+    padding-bottom: 6%;
+}
+td{
+    border-bottom: 1px dotted gray;
+}
+.negrito{
+    font-weight: bold;
+}
+ul, .link_vertical{
+    list-style: none;
+    color: black;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 0, 0.391);
+}
